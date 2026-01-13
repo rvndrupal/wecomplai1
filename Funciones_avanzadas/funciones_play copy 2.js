@@ -10,8 +10,6 @@ let WAIT_GLOBAL = 300;
 let TP_GLOBAL = 500;
 let TIMEOUT_GLOBAL = 30000;
 
-//Cambio en el archivo de muestra
-
 const FN = {
 
     // 🔁 Control para evitar sobreescritura de imágenes
