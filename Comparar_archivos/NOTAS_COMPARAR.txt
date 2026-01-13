@@ -1,0 +1,73 @@
+Necesito comparar dos archivos un .json con un excel,
+1.-el reto es muy grande ya que el .json no esta exacto en el numero de columnas que tiene el excel
+2.-Te voy a pasar una parte de los archivos en .json y el nuemro de columnas en excel.
+3.-la idesa es hacer un script de playwrigth para comparar los archivos o con python o javascript 
+4.-Pregunta es mejor hacer un script que separe los datos del .json para crear un excel que si sea compatible con el excel base ?? ó 
+    en el mismo script ya se compare el .json contra el excel.
+5.-son archivos muy grandes y te voy a subir una parte de ellos  y el nuemero de columnas.
+6.-La idea es que se genere un script que tome como base el archivo de excel si tiene 48 columnas tome como base ese numero de columnas de archivo
+    busque ese numero de columnas en el .json , la palabra clave o el indice a buscar es la palabra secuencia, el problema es que muchas veces el nuemro se repite 
+    lo importante es comparar con el indice secuencia por que busca del excel secuencia 1, debe de encontrar la columna secuencia 1, otro tema es que los excel tiene arreglos
+    de datos que estan pegando directamente en la compracion de datos, ya tengo un script en playwright pero ahorita no esta comparando bien 
+
+te muestro la parte del .json a comparar con la misma frecuencia econ excel.
+"secuencia": 1,
+            "orden": 1,
+            "tipo_apartado": "Título",
+            "no_apartado": "PRIMERO",
+            "titulo": "TíTULO PRIMERO",
+            "capitulo": "",
+            "seccion": "",
+            "apartado": "",
+            "sub_apartado": "",
+            "articulo": "",
+            "fraccion": "",
+            "inciso": "",
+            "numeral": "",
+            "sub_inciso": "",
+            "parrafo": "",
+            "sub_numeral": "",
+            "contenido": "TíTULO PRIMERO DISPOSICIONES GENERALES",
+            "fecha_vigencia": "2024/07/11",
+            "titulo_final": "TíTULO PRIMERO",
+            "juris_id": "",
+            "id_categoria": 1,
+            "fecha_modificacion": "",
+            "tipo_modificacion": "",
+            "tema_relacionado": "DISPOSICIONES GENERALES",
+            "subtema": "",
+            "excepcion": "",
+            "prohibicion": "NO",
+            "periodicidad_obligacion": "",
+            "tipo_sancion": "",
+            "detalle_sancion": "",
+            "ley_articulo_relacionado": "",
+            "organismos": "",
+            "comites_otros_relacionados": "",
+            "clasificacion_entidad": "",
+            "cliente": "",
+            "canal": "",
+            "producto": "",
+            "servicio": "",
+            "area": "",
+            "tipo_requerimiento": "IN",
+            "id_requerimiento": "",
+            "requerimiento_agrupado_txt": "",
+            "requerimiento_especifico": {
+                "texto": "TíTULO PRIMERO DISPOSICIONES GENERALES"
+            },
+            "requerimiento_pregunta": {
+                "requerimiento_pregunta": "NA"
+            },
+            "requerimiento_entregable": "",
+            "palabra_clave": "",
+            "etapa_requerimiento": "",
+            "formato_requisitar": "",
+            "requerimiento_agrupado_id": "",
+
+Estos son los datos a comprar con la primer columna de excel te subo un excel para que lo analisis, recuerda que lo más importante el
+excel es la base de los archivos , simpre el archivo base es el excel.
+Otra prate meterlo en un ciclo for que balla recorriendo campo por campo y asi puedo comprara los 5 primeros y ver los resultados en diferentes reportes muy profesionales
+una parte muy importante es un reporte que compare campo por campo y muestre si hay diferencias entre cada columna si existe que muestre que campo tiene de diferencias 
+y mostrar en donde esta la diferencia, lo más importante es que me digas que el texto es diferente en que campo.
+Dime si entendiste cual es el objetivo ??

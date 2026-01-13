@@ -1,0 +1,65 @@
+{
+	"FN ComboUno": {
+		"prefix": "FNComboSi",
+		"body": [
+			"await FN.click(page, '#hasSupervisor', carpeta, '${1:26_click_supervisor}');",
+			"await FN.selectDropdownOption(page, 'Si', carpeta, '${2:27_supervisor_si}');"
+		],
+		"description": "FN - Seleccionar supervisor = Si"
+	},
+
+	"FN ComboLabel": {
+		"prefix": "FNComboLabel",
+		"body": [
+			"await FN.clickComboByLabel(page, 'Rol', 'Buscar', carpeta, '${1:open_combo_rol}');",
+			"await FN.selectDropdownOption(page, 'Viewer', carpeta, '${2:select_rol_viewer}');"
+		],
+		"description": "FN - Seleccionar Rol Viewer"
+	},
+
+	"FN pausa": {
+		"prefix": "FNPAUSA",
+		"body": [
+			"await FN.pausa(${1:1000});"
+		],
+		"description": "FN - Pausa en milisegundos"
+	},
+
+	"FN abrir combo con flecha": {
+		"prefix": "FNFLECHA",
+		"body": [
+			"await FN.clickComboArrowByLabel(page, 'Módulos', carpeta, '${1:open_combo_arrow}');",
+			"await FN.pausa(${2:1000});"
+		],
+		"description": "FN - Abrir combo por flecha y pausar"
+	},
+
+	"FN click continuar": {
+		"prefix": "FNBOTON",
+		"body": [
+			"await FN.clickRole(page, 'button', '${1:Continuar}', carpeta, '${2:click_continuar}');"
+		],
+		"description": "FN - Click en botón Continuar"
+	},
+
+	"DEBUG": {
+		"prefix": "FNDEBUG",
+		"body": [
+			"await page.pause();"
+		],
+		"description": "Playwright - Pausa para debug (page.pause)"
+	},
+
+	"FN CampoTexto": {
+		"prefix": "FNCAMPOTEXTO",
+		"body": [
+			"await FN.clickRole(page, 'textbox', '${1:Teléfono del contacto Campo}', carpeta, '${2:click_telefono}');",
+			"await FN.fillRole(page, 'textbox', '${1}', '${3:5549897898}', carpeta, '${4:fill_telefono}');"
+		],
+		"description": "FN - ESCRIBIR EN UN CAMPO DE TEXTO"
+	}
+
+
+
+	
+}

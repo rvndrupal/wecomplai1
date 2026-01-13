@@ -1,0 +1,3 @@
+ cd tests\Comparar_archivos\
+python3 comparador_json_excel.py
+python comparador_json_excel_num.py
