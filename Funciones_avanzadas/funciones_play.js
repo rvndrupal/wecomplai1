@@ -12,6 +12,8 @@ let TIMEOUT_GLOBAL = 30000;
 
 //Esto es un nuevo comentario
 
+//Cambio para funciones 4
+
 const FN = {
 
     // 🔁 Control para evitar sobreescritura de imágenes
