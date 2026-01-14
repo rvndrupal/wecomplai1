@@ -10,7 +10,7 @@ let WAIT_GLOBAL = 300;
 let TP_GLOBAL = 500;
 let TIMEOUT_GLOBAL = 30000;
 
-//Esto e sun nuevo comentario
+//Esto es un nuevo comentario
 
 const FN = {
 
