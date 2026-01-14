@@ -14,6 +14,8 @@ let TIMEOUT_GLOBAL = 30000;
 
 //Cambio para funciones 4
 
+//Git funciones 5
+
 const FN = {
 
     // 🔁 Control para evitar sobreescritura de imágenes
